@@ -1,14 +1,14 @@
 ---
-Hello blog!!!!!!!
+layout:       post
+title:        "Hello blog!!!!!!!"
+subtitle:     "subtitle"
+date:         2018-03-23 14:27:00
+author:       "zhubq"
+header-img:   ""
+header-mask:  0.3
+catalog:      true
+multilingual: true
+tags:
+    - tags
 ---
-<!-- Chinese Version -->
-<div class="zh post-container">
-    {% capture about_zh %}{% include posts/2017-07-12-upgrading-eleme-to-pwa/zh.md %}{% endcapture %}
-    {{ about_zh | markdownify }}
-</div>
 
-<!-- English Version -->
-<div class="en post-container">
-    {% capture about_en %}{% include posts/2017-07-12-upgrading-eleme-to-pwa/en.md %}{% endcapture %}
-    {{ about_en | markdownify }}
-</div>
